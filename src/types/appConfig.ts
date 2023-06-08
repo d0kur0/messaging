@@ -4,6 +4,8 @@ export type Project = {
 };
 
 export type AppConfig = {
-	baseGitlabUrl: string;
+	gitlabUrl: string;
+	accessToken: string;
+	httpPort: number;
 	projects: Project[];
 };
